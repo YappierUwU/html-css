@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+}
+.content {
+  margin-top: 2%;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+header img {
+  width: 100px;
+  float: left;
+}
+header h1 {
+  margin-left: 5%;
+}
+nav {
+  clear: both;
+}
+nav ul {
+  margin-top: 4%;
+}
+section {
+  margin-top: 2%;
+}
+footer {
+  margin: 3%;
+  text-align: center;
+}
+section p {
+  margin-top: 2%;
+}
+#paragraf {
+  font-family: monospace;
+}
+.huruf {
+  font-size: 30px;
+}
+.warna {
+  background: pink;
+}
+.bentuk {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.huruf-tebal {
+  font-style: oblique;
+}
+th {
+  background: pink;
+}
+tr {
+  background: plum;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  font-family: monospace;
+  background: pink;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+ul li {
+  color: aqua;
+  background: pink;
+  display: inline-block;
+  border: 1px black;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+}
+ul li a {
+  color: aqua;
+}
+ul li:hover {
+  background: plum;
+  cursor: pointer;
+}
+ul li ul {
+  background: pink;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 0.5rem;
+  left: 0;
+  display: none;
+}
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
